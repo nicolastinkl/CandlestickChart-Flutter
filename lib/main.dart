@@ -89,11 +89,15 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    bool origindirtion =
+        MediaQuery.of(context).size.width < MediaQuery.of(context).size.height;
     return Scaffold(
-      appBar: AppBar(
-        shadowColor: Colors.transparent,
-        title: const Text('Demo'),
-      ),
+      appBar: origindirtion
+          ? AppBar(
+              shadowColor: Colors.transparent,
+              title: const Text('Demo'),
+            )
+          : null,
       backgroundColor: Color(0xff17212F),
       body: Stack(children: <Widget>[
         Container(
