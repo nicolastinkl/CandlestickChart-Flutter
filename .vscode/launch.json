@@ -1,0 +1,45 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CandlestickChart-Flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "CandlestickChart-Flutter (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "CandlestickChart-Flutter (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "CandlestickLib",
+            "cwd": "CandlestickLib",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "CandlestickLib (profile mode)",
+            "cwd": "CandlestickLib",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "CandlestickLib (release mode)",
+            "cwd": "CandlestickLib",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
