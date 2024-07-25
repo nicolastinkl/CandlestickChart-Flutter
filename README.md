@@ -1,5 +1,4 @@
-# CandlestickChart-Flutter
-CandlestickChart-Flutter
+# CandlestickChart-Flutter 
 
 ![](screenshot/combined_image.png) 
 
