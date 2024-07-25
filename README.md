@@ -1,9 +1,7 @@
 # CandlestickChart-Flutter
 CandlestickChart-Flutter
 
-![](screenshot/IMG_6460.PNG)
-![](screenshot/IMG_6461.PNG)
-![](screenshot/Untitled.gif)
+![](screenshot/combined_image.png) 
 
 ## 介绍
 一个日本蜡烛图的flutter图表库包含深度图，支持各种指标及放大缩小、平移等操作
